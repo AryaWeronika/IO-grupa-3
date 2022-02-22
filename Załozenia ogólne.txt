@@ -1,0 +1,12 @@
+-> sklep z ciastkami
+-- koszyk
+-- wartosć zamówienia
+-- wybór produktów
+-- definicja minimalnej ilosci zamówienia w przypadku produktu personalizowanego (wartość oikreślona kwotowo)
+-- sprzedaż abonamentowa:
+--- premium: dostawa zamówienia raz w tygodniu przez wybrany okres tygodni
+--- standard: zwyczajne zamówienie jednorazowe
+
+-- sposób i koszt dostawy
+
+-- ankieta do wypełnienia

@@ -1,0 +1,127 @@
+
+Przykład: https://pure4me.pl/survey
+
+
+Pytania:
+1. Jak się nazywasz? ...
+2. Ile masz lat? ...
+3. Podaj swój wzrost (cm) 
+...
+4. Podaj swoją wagę (kg) ...
+5. Jaki rodzaj pracy wykonujesz? 
+siedząca 
+stojąca 
+fizyczna 
+inna odpowiedź....
+6. Ile godzin dziennie poświęcasz pracy? 
+2-3 h 
+4-6 h 
+8-10 h 
+powyżej 10 h
+7. Ile godzin dziennie poświęcasz na relaks? 
+1-2 h 
+2-4 h 
+6-8 h 
+inna odpowiedź...
+8. Jak często się ruszasz? 
+codziennie 
+co kilka dni 
+kilka razy w miesiącu 
+inna odpowiedź...
+9. Jaki rodzaj aktywności fizycznej wykonujesz najczęściej? 
+spacer 
+rower 
+bieganie 
+siłownia 
+inna odpowiedź...
+10. Jak często sięgasz po alkohol? 
+nie piję 
+1x w tygodniu 
+1-2x w tygodniu 
+codziennie piwo/1 lampka wina/ 1 drink 
+kilka razy w miesiącu 
+inna odpowiedź...
+11. Czy palisz papierosy lub e-papierosy? 
+palę codziennie 
+palę okazyjnie 
+nie palę
+(pytanie, które pojawia się po zaznaczeniu odpowiedzi "palę codziennie")11.1. Ile papierosów palisz dziennie? 
+1-2 sztuk 
+2-5 sztuk 
+5-10 sztuk 
+więcej 
+12. Jak dużo kawy pijesz dziennie? 
+nie piję 
+1 filiżanka kawy dziennie 
+2-3 filiżanki kawy dziennie 
+powyżej 3 filiżanek kawy dziennie
+13. Jak określisz jakość swojego snu? 
+śpię za mało 
+mam trudności z zaśnięciem 
+często budzę się w nocy 
+żadne z wymienionych
+14. Ile godzin dziennie śpisz? 
+<3 h 
+3-5 h 
+6-7 h 
+8-9 h 
+więcej
+15. Jak określisz poziom swojej energii? 
+często czuję senność 
+nie mam siły na codzienne aktywności 
+mam siłę na wszystkie codziennie aktywności 
+jestem wulkanem energii
+16. Czy chorujesz na coś przewlekle? 
+możliwość wyboru kilku odpowiedzi
+Niedoczynność tarczycy 
+Nadczynność tarczycy 
+Hashimoto 
+Celiakia 
+PCOS 
+Insulinooporność 
+Nadciśnienie 
+Miażdżyca 
+Anemia 
+Zespół Jelita Drażliwego (IBS) 
+Osteoporoza 
+Stłuszczenie wątroby 
+Inne 
+17. Czy masz alergie lub nietolerancje pokarmowe? 
+możliwość wyboru kilku odpowiedzi
+Mleko 
+Gluten 
+Laktoza 
+Orzechy 
+Soja 
+18. Zaznacz stwierdzenia dotyczące Ciebie: 
+Mam częste dolegliwości ze strony przewodu 
+pokarmowego (wzdęcia, bóle brzucha) 
+Zdarzają mi się biegunki 
+Zdarzają mi się zaparcia 
+Mam naprzemiennie biegunki i zaparcia 
+Inna odpowiedź...
+19. Czy przyjmujesz leki? 
+tak 
+nie
+(pytanie, które pojawia się po zaznaczeniu odpowiedzi "tak"), kilka możliwości odpowiedzi
+19.1. Jakie leki przyjmujesz? 
+Inhibitory pompy protonowej 
+Przeciwcukrzycowe 
+Na nadciśnienie 
+Przeciwpadaczkowe 
+Antykoncepcyjne 
+Kortykosteroidy 
+Przeciwnowotworowe 
+Psychotropowe 
+Inne 
+20. Zaznacz produkty, których nie jadasz: 
+kilka możliwości odpowiedzi
+Jaja 
+Nabiał 
+Produkty pełnoziarniste 
+Orzechy/nasiona/pestki 
+Mięso 
+Ryby 
+Owoce morza 
+Rośliny strączkowe 
+Żadne z wymienionych 
