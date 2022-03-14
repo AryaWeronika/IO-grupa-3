@@ -1,25 +1,25 @@
 const questions = [{
-    id: 0,
+    id: 1,
     title: "Jak się nazywasz?",
     type: "text",
 },
 {
-    id: 1,
+    id: 2,
     title: "Ile masz lat?",
     type: "text",
 },
 {
-    id: 2,
+    id: 3,
     title: "Podaj swój wzrost (cm) ",
     type: "text",
 },
 {
-    id: 3,
+    id: 4,
     title: "Podaj swoją wagę (kg) ",
     type: "text",
 },
 {
-    id: 4,
+    id: 5,
     title: "Jaki rodzaj pracy wykonujesz",
     type: "selection",
     options: [
@@ -30,7 +30,7 @@ const questions = [{
     ]
 },
 {
-    id: 5,
+    id: 6,
     title: "Ile godzin dziennie poświęcasz pracy?",
     type: "selection",
     options: [
@@ -41,7 +41,7 @@ const questions = [{
     ]
 },
 {
-    id: 6,
+    id: 7,
     title: "Ile godzin dziennie poświęcasz na relaks?",
     type: "selection",
     options: [
@@ -52,7 +52,7 @@ const questions = [{
     ]
 },
 {
-    id: 7,
+    id: 8,
     title: "Jak często się ruszasz?",
     type: "selection",
     options: [
@@ -63,7 +63,7 @@ const questions = [{
     ]
 },
 {
-    id: 8,
+    id: 9,
     title: "Jaki rodzaj aktywności fizycznej wykonujesz najczęściej?",
     type: "selection",
     options: [
@@ -75,7 +75,7 @@ const questions = [{
     ]
 },
 {
-    id: 9,
+    id: 10,
     title: "Jak często sięgasz po alkohol?",
     type: "selection",
     options: [
@@ -84,19 +84,6 @@ const questions = [{
         "1-2x w tygodniu",
         "Kilka razy w miesiącu",
         "Codziennie piwo/ 1 lampka wina/ 1 drink",
-        "?",
-    ]
-},
-{
-    id: 10,
-    title: "Jak często sięgasz po alkohol?",
-    type: "selection",
-    options: [
-        "Nie piję alkoholu",
-        "1x w tygodniu",
-        "1-2x w tygodniu",
-        "Codziennie piwo/ lampka wina/ drink",
-        "Kilka razy w miesiącu",
         "?",
     ]
 },
