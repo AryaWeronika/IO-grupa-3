@@ -1,0 +1,323 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  position: absolute;
+  z-index: 9999999;
+  width: 100%;
+  height: 80px;
+  background-color: #C28F5C;
+}
+
+.tytul {
+  float: left;
+  margin-top: 15px;
+  margin-left: 10px;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+}
+
+.logowanie,
+.wybor {
+  color: white;
+  float: right;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  margin-top: 30px;
+  margin-right: 40px;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.5s;
+}
+
+.wybor:hover,.logowanie:hover {
+  padding-bottom: 20px;
+  border-bottom: 3px solid #663300;
+}
+
+.wybor2 {
+  margin-right: 10px;
+}
+.anuluj {
+    margin-right: 100px;
+}
+
+.ciacho {
+  margin-top: -15px;
+  float: left;
+  margin-right: 10px;
+}
+
+.banner {
+  
+  padding: 400px 0px;
+  background-image: url(obrazy/tlo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+
+}
+
+
+h2 {
+  font-size: 25px;
+
+}
+
+h3 {
+  font-size: 30px;
+  color: white;
+}
+
+h4 {
+  font-size: 20px;
+  color: white;
+}
+
+h5 {
+  font-size: 65px;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 5px;
+}
+
+
+.napis {
+  font-size: 30px;
+}
+
+p {
+    color: #663300;
+    font-size: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-decoration: solid;
+}
+
+.container {
+  max-width: 500px;
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0px 0px 20px #00000020;
+  border-radius: 8px;
+  background-color: white;
+  text-align: left;
+}
+
+.step {
+  display: none;
+}
+
+.step.active {
+    display: block;
+}
+
+.form-group {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.form-group input {
+  width: 100%;
+  border: 1.5px solid rgba(128, 128, 128, 0.418);
+  font-size: 18px;
+  margin-top: 5px;
+  border-radius: 4px;
+}
+
+.form-groupcheckbox input{
+  float: left;
+  margin-right: 10px;
+}
+
+.form-groupradio input{
+  float: left;
+  margin-right: 10px;  
+}
+ 
+button.next-btn{
+  float: right;
+}
+
+button.previous-btn,
+button.submit-btn {
+  margin-top: 20px;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button.previous-btn {
+  margin-top: 30px;
+  float: left;
+}
+
+button.submit-btn {
+  margin-top: 30px;
+  float:right;
+}
+
+a.butt {
+  float:center;
+  transition: all 0.5s;
+  color:white;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+  float: none;
+  margin-top: 30px;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  color: white;
+  background-color: transparent;
+  transition: all 0.5s;
+}
+* {
+  margin: auto;
+  padding: 0;
+}
+
+a.butt:hover,
+button:hover {
+  padding-bottom: 20px;
+  border-bottom: 3px solid #663300;
+}
+
+.strzalkaprawo {
+  margin-left: 10px;
+}
+
+.strzalkalewo {
+  margin-right: 10px;
+}
+
+
+.rate {
+  margin: auto;
+  width: 150px;
+  height: 46px;
+  float: center;
+}
+
+.rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+
+.rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 30px;
+  color: #ccc;
+}
+
+.rate:not(:checked) > label:before {
+  content: '★ ';
+}
+
+.rate > input:checked ~ label {
+  color: #ffc700;
+}
+
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+
+.form-group input {
+  padding: 5px;
+}
+
+.form-group2 {
+  margin:auto;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.form-group2 input {
+  margin:auto;
+  width: 100%;
+  border: 1.5px solid rgba(128, 128, 128, 0.418);
+  padding: 5px;
+  font-size: 18px;
+  margin-top: 5px;
+  border-radius: 4px;
+}
+
+textarea {
+  border: 1.5px solid rgba(128, 128, 128, 0.418);
+ 
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: none;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+}
+

@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logowanie</title>
+    <link rel="stylesheet" href="./style.css">
+
+
+    </head>
+
+    <body>
+        <div class="header">
+            <a class="tytul" href="start.html"><img class="ciacho" src="obrazy/ciacho.png" weight="80" height="80"><h2>Ciasteczkowa ankieta</h2></a>
+            <div class="wybor2">
+                <a class="logowanie" href="panel.html">Zaloguj się</a>
+                <a class="wybor" href="uslugi.html">Oceń nas</a>
+                <a class="wybor" href="ankieta.html">Ankieta</a>
+                <a class="wybor" href="start.html">Strona główna</a>
+            </div>
+        </div>
+
+        <div class="banner">
+            <form action="Start.html" method="get">
+                <div class="container">
+                    <div class="form-group2">
+                        <label for="uname"><b>Nazwa Użytkownika</b></label>
+                        <input type="text" placeholder="Wpisz nazwę użytkownika" name="uname" required>
+                        <label for="psw"><b>Hasło</b></label>
+                        <input type="password" id="myInput" placeholder="Wpisz hasło" name="psw" required>
+
+                    </div>
+                    <input type="checkbox" onclick="myFunction()" style="float: right; margin-top:18px;"><label class="label2" style="float: right; margin-right: 8px; margin-top:15px;">Pokaż hasło</label>
+                    <script>
+                        function myFunction() {
+                            var x = document.getElementById("myInput");
+                            if (x.type === "password") {
+                                x.type = "text";
+                            } else {
+                                x.type = "password";
+                            }
+                        }
+                    </script>
+                    <br />
+                    <label>
+                        Zapamiętaj mnie <input type="checkbox" checked="checked" name="remember" value="remember" id="remember">
+                    </label><br />
+
+                    <button type="submit" class="submit-btn"><img class="wyslij" src="obrazy/login.png" width="70" height="50"></button>
+                </div>
+            </form>
+        </div>
+
+
+
+
+
+    </body>
+
+</html>

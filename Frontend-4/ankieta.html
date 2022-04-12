@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Ankieta</title>
+      <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="header">
+            <a class="tytul" href="start.html"><img class="ciacho" src="obrazy/ciacho.png" weight="80" height="80"><h2>Ciasteczkowa ankieta</h2></a>
+            <div class="wybor2">
+                <a class="logowanie" href="panel.html">Zaloguj się</a> 
+                <a class="wybor" href="uslugi.html">Oceń nas</a>
+                <a class="wybor" href="ankieta.html">Ankieta</a>
+                <a class="wybor" href="start.html">Strona główna</a>
+            </div>
+        </div>
+        <div class="banner">
+        <section>
+            <div class="container">
+                <form id="myForm">
+
+                    <div class="step step-1 active">
+                        <div class="form-group">
+                            <p>Cześć! Jak masz na imię?</p>
+                            <input type="text" id="imie" name="imie">
+                        </div>
+                        <button type="button" id="next" class="next-btn"><img class="strzalkaprawo" src="obrazy/strzalkaprawo.png" withh="50" height="50"></button>
+                    </div>
+
+                    <div class="step step-2">
+                        <div class="form-group">
+                            <p>Ile masz lat?</p>
+                            <input type="text" id="wiek" name="wiek">
+                        </div>
+                        <button type="button" class="previous-btn"><img class="strzalkalewo" src="obrazy/strzalkalewo.png" withh="50" height="50"></button>
+                        <button type="button" class="next-btn"><img class="strzalkaprawo" src="obrazy/strzalkaprawo.png" withh="50" height="50"></button>
+                    </div>
+
+                    <div class="step step-3">
+                        <div class="form-group">
+                            <p>Podaj swój wzrost (cm)</p>
+                            <input type="text" id="wzrost" name="wzrost">
+                        </div>
+                        <button type="button" class="previous-btn"><img class="strzalkalewo" src="obrazy/strzalkalewo.png" withh="50" height="50"></button>
+                        <button type="button" class="next-btn"><img class="strzalkaprawo" src="obrazy/strzalkaprawo.png" withh="50" height="50"></button>
+                    </div>
+
+                    <div class="step step-4">
+                        <div class="form-group">
+                            <p>Podaj swoją wagę (kg)</p>
+                            <input type="text" id="waga" name="waga">
+                        </div>
+                        <button type="button" class="previous-btn"><img class="strzalkalewo" src="obrazy/strzalkalewo.png" withh="50" height="50"></button>
+                        <button type="button" class="next-btn"><img class="strzalkaprawo" src="obrazy/strzalkaprawo.png" withh="50" height="50"></button>
+                    </div>
+
+                    <div class="step step-5">
+                        <div class="form-groupradio">
+                            <p>Jaki rodzaj pracy wykonujesz?</p>
+                            <input type="radio" id="praca" name="praca" value="siedzaca"> siedząca<br>
+                            <input type="radio" id="praca" name="praca" value="stojaca"> stojąca<br>
+                            <input type="radio" id="praca" name="praca" value="fizyczna"> fizyczna<br>
+                            <input type="radio" id="praca" name="praca" value="inna"> inna
+                        </div>
+                        <button type="button" class="previous-btn"><img class="strzalkalewo" src="obrazy/strzalkalewo.png" withh="50" height="50"></button>
+                        <button type="button" class="next-btn"><img class="strzalkaprawo" src="obrazy/strzalkaprawo.png" withh="50" height="50"></button>
+                    </div>
+
+                    <div class="step step-6">
+                        <div class="form-groupradio">
+                            <p>Ile godzin dziennie poświęcasz pracy?</p>
+                            <input type="radio" id="hpraca" name="hpraca" value="2-3h">2-3h<br>
+                            <input type="radio" id="hpraca" name="hpraca" value="4-6h">4-6h<br>
+                            <input type="radio" id="hpraca" name="hpraca" value="8-10h">8-10h<br>
+                            <input type="radio" id="hpraca" name="hpraca" value="inna">inna
+                        </div>
+                        <button type="button" class="previous-btn"><img class="strzalkalewo" src="obrazy/strzalkalewo.png" withh="50" height="50"></button>
+                        <button type="button" class="next-btn"><img class="strzalkaprawo" src="obrazy/strzalkaprawo.png" withh="50" height="50"></button>
+                    </div>
+
+                    <div class="step step-7">
+                        <div class="form-groupradio">
+                            <p>Ile godzin dziennie poświęcasz na relax?</p>
+                            <input type="radio" id="relax" name="relax" value="1-2h">1-2h<br>
+                            <input type="radio" id="relax" name="relax" value="2-4h">2-4h<br>
+                            <input type="radio" id="relax" name="relax" value="6-8h">6-8h<br>
+                            <input type="radio" id="relax" name="relax" value="inna">inna
+                        </div>
+                        <button type="button" class="previous-btn"><img class="strzalkalewo" src="obrazy/strzalkalewo.png" withh="50" height="50"></button>
+                        <button type="button" class="next-btn"><img class="strzalkaprawo" src="obrazy/strzalkaprawo.png" withh="50" height="50"></button>
+                    </div>
+
+                    <div class="step step-8">
+                        <div class="form-groupradio">
+                            <p>Jak często się ruszasz?</p>
+                            <input type="radio" id="ruch" name="ruch" value="codziennie">codziennie<br>
+                            <input type="radio" id="ruch" name="ruch" value="cokilkadni">co kilka dni<br>
+                            <input type="radio" id="ruch" name="ruch" value="kilkarazywmiesiacu">kilka razy w miesiącu<br>
+                            <input type="radio" id="ruch" name="ruch" value="inna">inna
+                        </div>
+                        <button type="button" class="previous-btn"><img class="strzalkalewo" src="obrazy/strzalkalewo.png" withh="50" height="50"></button>
+                        <button type="button" class="next-btn"><img class="strzalkaprawo" src="obrazy/strzalkaprawo.png" withh="50" height="50"></button>
+                    </div>
+
+                    <div class="step step-9">
+                        <div class="form-groupradio">
+                            <p>Jaki rodzaj aktywności wykonujesz najczęściej?</p>
+                            <input type="radio" id="aktywnosc" name="aktywnosc" value="spacer">spacer<br>
+                            <input type="radio" id="aktywnosc" name="aktywnosc" value="rower">rower<br>
+                            <input type="radio" id="aktywnosc" name="aktywnosc" value="bieganie" >bieganie<br>
+                            <input type="radio" id="aktywnosc" name="aktywnosc" value="silownia">siłownia<br>
+                            <input type="radio" id="aktywnosc" name="aktywnosc" value="inna">inna
+                        </div>
+                        <button type="button" class="previous-btn"><img class="strzalkalewo" src="obrazy/strzalkalewo.png" withh="50" height="50"></button>
+                        <button type="button" class="next-btn"><img class="strzalkaprawo" src="obrazy/strzalkaprawo.png" withh="50" height="50"></button>
+                    </div>
+
+                    <div class="step step-10">
+                        <div class="form-groupradio">
+                            <p>Jak często sięgasz po alkohol?</p>
+                            <input type="radio" id="alko" name="alko" value="niepije">nie pije<br>
+                            <input type="radio" id="alko" name="alko" value="razwtygodniu">raz w tygodniu<br>
+                            <input type="radio" id="alko" name="alko" value="1-2razywtyg">1-2 razy w tygodniu<br>
+                            <input type="radio" id="alko" name="alko" value="kilkarazywmie">kilka razy w miesiącu<br>
+                            <input type="radio" id="alko" name="alko" value="codziennie">codziennie piwo/ 1 lampka wina/ 1<br>
+                            <input type="radio" id="alko" name="alko" value="inna">inna
+                        </div>
+                        <button type="button" class="previous-btn"><img class="strzalkalewo" src="obrazy/strzalkalewo.png" withh="50" height="50"></button>
+                        <button type="button" class="next-btn"><img class="strzalkaprawo" src="obrazy/strzalkaprawo.png" withh="50" height="50"></button>
+                    </div>
+
+                    <div class="step step-11">
+                        <div class="form-groupradio">
+                            <p>Czy palisz papierosy?</p>
+                            <input type="radio" id="papierosy" name="papierosy" value="palecodz">palę codziennie<br>
+                            <input type="radio" id="papierosy" name="papierosy" value="paleokaz">palę okazjonalnie<br>
+                            <input type="radio" id="papierosy" name="papierosy" value="niepale" >nie palę
+                        </div>
+                        <button type="button" class="previous-btn"><img class="strzalkalewo" src="obrazy/strzalkalewo.png" withh="50" height="50"></button>
+                        <button type="button" class="next-btn"><img class="strzalkaprawo" src="obrazy/strzalkaprawo.png" withh="50" height="50"></button>
+                    </div>
+
+                    <div class="step step-12">
+                        <div class="form-groupradio">
+                            <p>Jak dużo kawy pijesz dziennie?</p>
+                            <input type="radio" id="kawa" name="kawa" value="niepijekawy">nie piję kawy<br>
+                            <input type="radio" id="kawa" name="kawa" value="1dziennie">1 filiżanka dziennie<br>
+                            <input type="radio" id="kawa" name="kawa" value="2-3dziennie">2-3 filiżanki dziennie<br>
+                            <input type="radio" id="kawa" name="kawa" value=">3dziennie">powyżej 3 filiżanek dziennie
+                        </div>
+                        <button type="button" class="previous-btn"><img class="strzalkalewo" src="obrazy/strzalkalewo.png" withh="50" height="50"></button>
+                        <button type="button" class="next-btn"><img class="strzalkaprawo" src="obrazy/strzalkaprawo.png" withh="50" height="50"></button>
+                    </div>
+
+                    <div class="step step-13">
+                        <div class="form-groupradio">
+                            <p>Jak określasz jakoś swojego snu?</p>
+                            <input type="radio" id="sen" name="sen" value="spiemalo">śpię mało<br>
+                            <input type="radio" id="sen" name="sen" value="trudnzasnac" >mam trudności z zaśnięciem<br>
+                            <input type="radio" id="sen" name="sen" value="budzesiewnocy" >często budzę się w nocy<br>
+                            <input type="radio" id="sen" name="sen" value="nic">żadne z wymienionych
+                        </div>
+                        <button type="button" class="previous-btn"><img class="strzalkalewo" src="obrazy/strzalkalewo.png" withh="50" height="50"></button>
+                        <button type="button" class="next-btn"><img class="strzalkaprawo" src="obrazy/strzalkaprawo.png" withh="50" height="50"></button>
+                    </div>
+
+                    <div class="step step-14">
+                        <div class="form-groupradio">
+                            <p>Ile godzin dziennie śpisz?</p>
+                            <input type="radio" id="hsen" name="hsen" value="<3">poniżej 3 godzin<br>
+                            <input type="radio" id="hsen" name="hsen" value="3-5h">3-5h<br>
+                            <input type="radio" id="hsen" name="hsen" value="6-7h">6-7h<br>
+                            <input type="radio" id="hsen" name="hsen" value="8-9h">8-9h<br>
+                            <input type="radio" id="hsen" name="hsen" value="inna">inna
+                        </div>
+                        <button type="button" class="previous-btn"><img class="strzalkalewo" src="obrazy/strzalkalewo.png" withh="50" height="50"></button>
+                        <button type="button" class="next-btn"><img class="strzalkaprawo" src="obrazy/strzalkaprawo.png" withh="50" height="50"></button>
+                    </div>
+
+                    <div class="step step-15">
+                        <div class="form-groupradio">
+                            <p>Jak określasz poziom swojej energii?</p>
+                            <input type="radio" id="energia" name="energia" value="czestasennosc">często odczuwam senność<br>
+                            <input type="radio" id="energia" name="energia" value="niemamsil">nie mam siły na codzienne aktywności<br>
+                            <input type="radio" id="energia" name="energia" value="mamsile">mam siłę na wszystkie codzienne aktywności<br>
+                            <input type="radio" id="energia" name="energia" value="jestemaktywny">jestem wulkanem aktywności
+                        </div>
+                        <button type="button" class="previous-btn"><img class="strzalkalewo" src="obrazy/strzalkalewo.png" withh="50" height="50"></button>
+                        <button type="button" class="next-btn"><img class="strzalkaprawo" src="obrazy/strzalkaprawo.png" withh="50" height="50"></button>
+                    </div>
+
+                    <div class="step step-16">
+                        <div class="form-groupcheckbox">
+                            <p>Czy chorujesz na coś przewlekle?</p>
+                            <input type="checkbox" id="choroba" name="choroba" value="niedotarczycy">Niedoczynność tarczycy<br>
+                            <input type="checkbox" id="choroba" name="choroba" value="nadtarczycy">Nadczynność tarczycy<br>
+                            <input type="checkbox" id="choroba" name="choroba" value="hashimoto">Hashimoto<br>
+                            <input type="checkbox" id="choroba" name="choroba" value="celiakia">Celiakia<br>
+                            <input type="checkbox" id="choroba" name="choroba" value="pcos">PCOS<br>
+                            <input type="checkbox" id="choroba" name="choroba" value="insulinoopornosc">Insulinooporność<br>
+                            <input type="checkbox" id="choroba" name="choroba" value="nadcisnienie">Nadciśnienie<br>
+                            <input type="checkbox" id="choroba" name="choroba" value="miazdzyca">Miażdżyca<br>
+                            <input type="checkbox" id="choroba" name="choroba" value="anemia">Anemia<br>
+                            <input type="checkbox" id="choroba" name="choroba" value="ibs">Zespół Jelita Drażliwego (IBS)<br>
+                            <input type="checkbox" id="choroba" name="choroba" value="osteoporoza">Osteoporoza<br>
+                            <input type="checkbox" id="choroba" name="choroba" value="inna">Inna
+                        </div>
+                        <button type="button" class="previous-btn"><img class="strzalkalewo" src="obrazy/strzalkalewo.png" withh="50" height="50"></button>
+                        <button type="button" class="next-btn"><img class="strzalkaprawo" src="obrazy/strzalkaprawo.png" withh="50" height="50"></button>
+                    </div>
+
+                    <div class="step step-17">
+                        <div class="form-groupcheckbox">
+                            <p>Czy masz alergie lub nietolerancje pokarmowe?</p>
+                            <input type="checkbox" id="alergie" name="alergie" value="mleko">mleko<br>
+                            <input type="checkbox" id="alergie" name="alergie" value="gluten" >gluten<br>
+                            <input type="checkbox" id="alergie" name="alergie" value="laktoza">laktoza<br>
+                            <input type="checkbox" id="alergie" name="alergie" value="orzechy">orzechy<br>
+                            <input type="checkbox" id="alergie" name="alergie" value="soja">soja
+                        </div>
+                        <button type="button" class="previous-btn"><img class="strzalkalewo" src="obrazy/strzalkalewo.png" withh="50" height="50"></button>
+                        <button type="button" class="next-btn"><img class="strzalkaprawo" src="obrazy/strzalkaprawo.png" withh="50" height="50"></button>
+                    </div>
+
+                    <div class="step step-18">
+                        <div class="form-groupcheckbox">
+                            <p>Zaznacz stwierdzenia dotyczace Ciebie:</p>
+                            <input type="checkbox" id="ty" name="ty" value="czestedolegliwosci">mam częste dolegliwości ze strony przewodu pokarmowego (wzdęcia, bóle brzucha)<br>
+                            <input type="checkbox" id="ty" name="ty" value="zdarzajasiebiegunki">zdarzają mi się biegunki<br>
+                            <input type="checkbox" id="ty" name="ty" value="zdarzajasiezaparcia">zdarzają mi się zaparcia<br>
+                            <input type="checkbox" id="ty" name="ty" value="naprzemiennebiegunkiizaparcia">mam naprzemiennie biegunki i zaparcia
+                        </div>
+                        <button type="button" class="previous-btn"><img class="strzalkalewo" src="obrazy/strzalkalewo.png" withh="50" height="50"></button>
+                        <button type="button" class="next-btn"><img class="strzalkaprawo" src="obrazy/strzalkaprawo.png" withh="50" height="50"></button>
+                    </div>
+
+                    <div class="step step-19">
+                        <div class="form-groupradio">
+                            <p>Czy przyjmujesz leki?</p>
+                            <input type="radio" id="leki" name="leki" value="tak">tak<br>
+                            <input type="radio" id="leki" name="leki" value="nie">nie
+                        </div>
+                        <button type="button" class="previous-btn"><img class="strzalkalewo" src="obrazy/strzalkalewo.png" withh="50" height="50"></button>
+                        <button type="button" class="next-btn"><img class="strzalkaprawo" src="obrazy/strzalkaprawo.png" withh="50" height="50"></button>
+                    </div>
+
+                    <div class="step step-20">
+                        <div class="form-groupcheckbox">
+                            <p>Zaznacz produkty, których nie jadasz:</p>
+                            <input type="checkbox" id="niejesz" name="niejesz" value="jajka">jajka<br>
+                            <input type="checkbox" id="niejesz" name="niejesz" value="nabial">nabiał<br>
+                            <input type="checkbox" id="niejesz" name="niejesz" value="pelnoziar">produkty pełnoziarniste<br>
+                            <input type="checkbox" id="niejesz" name="niejesz" value="orzechy">orzechy/ nasiona/ pestki<br>
+                            <input type="checkbox" id="niejesz" name="niejesz" value="mieso">mięso<br>
+                            <input type="checkbox" id="niejesz" name="niejesz" value="ryby">ryby<br>
+                            <input type="checkbox" id="niejesz" name="niejesz" value="owocemorza">owoce morza<br>
+                            <input type="checkbox" id="niejesz" name="niejesz" value="rosstracz">rośliny strączkowe<br>
+                            <input type="checkbox" id="niejesz" name="niejesz" value="zadnezwymienionych">żadne z wymienionych
+                        </div>
+                        <button type="button" class="previous-btn"><img class="strzalkalewo" src="obrazy/strzalkalewo.png" withh="50" height="50"></button>
+                        <button type="submit" class="submit-btn"><img class="wyslij" src="obrazy/wyslij.png" width="70" height="50"></button>
+                    </div>
+
+                </form>
+            </div>
+        </section>
+        </div>
+        <script src="./main.js"></script>
+
+    </body>
+</html>
