@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -25,8 +26,15 @@ namespace Strona_internetowa.Pages
 
         // POST api/<ValuesController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] Ankieta value)
         {
+            if (value == null) { }
+            /*using (var context = new BloggingContext())
+            {
+                var blog = new Blog { Url = "http://example.com/" };
+                context.Blogs.Add(blog);
+                context.SaveChanges();
+            }*/
         }
 
         // PUT api/<ValuesController>/5
