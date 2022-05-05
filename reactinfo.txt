@@ -1,0 +1,4 @@
+Aby poprawnie uruchomić projekt trzeba mieć zainstalowane:
+npm install react-router-dom@5.2.0
+npm install react-step-builder
+Bez tego nie będzie działać pasek nawigacji oraz przełączanie pytań w ankiecie.
